@@ -30,9 +30,10 @@ public class JobSch { //greedy algorithm
             machine[least] = machine[least] + t[i]; // 할당된 시간이 적은 기계에 다음 작업 할당해줌.
         }
 
-        for(int i = 0; i < machine.length; i++) {
-            System.out.print(machine[i] + " ");
-        }
+        //for(int i = 0; i < machine.length; i++) {
+        //    System.out.print(machine[i] + " ");
+        //} 배열의 요소들 값 확인하는 용도의 for문
+        
         getMaxValue(machine);
     }
 
